@@ -1,0 +1,21 @@
+{
+  "seed": 201,
+  "node": "v24.22.1",
+  "module": "esm",
+  "runs": 100,
+  "answers": {
+    "g01": "AEBCDFGH",
+    "g02": "ACBDEFGH",
+    "g03": "AFGBCDE",
+    "g04": "ADEBFGHC",
+    "g05": "AEFBCDGHI",
+    "g06": "ABCFDE",
+    "g07": "AFBEDC",
+    "g08": "BADCEFG",
+    "g09": "ABECDF",
+    "g10": "FABDEC",
+    "g11": "FGABCED",
+    "g12": "FABDCE"
+  },
+  "rejectedAsRacy": 14
+}

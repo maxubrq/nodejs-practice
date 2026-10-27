@@ -1,0 +1,10 @@
+v24 tp=1 config n=8 p50=3036.4 p99=3038.9 | avatar n=54 p99=924.1 | probe p99=3.4
+v24 tp=2 config n=16 p50=1381.7 p99=1412.3 | avatar n=100 p99=487.6 | probe p99=14
+v24 tp=4 config n=24 p50=929.1 p99=1186 | avatar n=97 p99=548.3 | probe p99=12.7
+v24 tp=8 config n=144 p50=61.3 p99=439.2 | avatar n=96 p99=499.6 | probe p99=16.4
+v24 tp=16 config n=1652 p50=10.2 p99=39.1 | avatar n=84 p99=686.9 | probe p99=19
+v26 tp=1 config n=28 p50=810.1 p99=923.2 | avatar n=56 p99=941.4 | probe p99=5.1
+v26 tp=2 config n=56 p50=391.6 p99=446.9 | avatar n=101 p99=504.3 | probe p99=10.4
+v26 tp=4 config n=72 p50=266 p99=431.8 | avatar n=98 p99=480 | probe p99=12.6
+v26 tp=8 config n=311 p50=34.2 p99=432.7 | avatar n=95 p99=566.6 | probe p99=18.5
+v26 tp=16 config n=2840 p50=6.2 p99=23.7 | avatar n=85 p99=634.4 | probe p99=15.4

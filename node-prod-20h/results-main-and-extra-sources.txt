@@ -1,0 +1,10 @@
+# nodejs/node main @ 640ce854 2026-10-27
+lib/internal/http/server.js:583  «this.keepAliveTimeout = 65_000»
+doc/api/http.md:2012  «PR #62782, version: REPLACEME (chưa phát hành)»
+doc/api/perf_hooks.md:1973  «mô tả monitorEventLoopDelay: không nói mẫu gồm cả resolution»
+doc/api/process.md:669  «SIGTERM/SIGINT có handler mặc định; không nhắc PID 1»
+# v24.22.1
+src/node.cc:619  «RegisterSignalHandler(SIGTERM, SignalExit, true)»
+src/node.cc:189  «SignalExit: ResetStdio(); raise(signo);»
+lib/fs.js(v26):459  «ReadFileJob (PR #65327, v26.8.0)»
+lib/buffer.js(v26):187  «kPoolAlignment = 64; v24 không có. [cần kiểm] PR nào thêm căn lề pool (ứng viên: #65003 "buffer: support aligned allocations", 26.8.0)»

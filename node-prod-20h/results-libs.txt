@@ -1,0 +1,15 @@
+# Thư viện production (npm, tải 2026-10-27), file:dòng «ký hiệu»
+fastify  fastify-5.12.7/lib/route.js:88  «return503OnClosing»
+fastify  fastify-5.12.7/lib/route.js:510  «forceCloseConnections»
+fastify  fastify-5.12.7/fastify.js:393  «closeIdleConnections()»
+fastify  fastify-5.12.7/lib/config-validator.js:6  «"keepAliveTimeout":{"type":"integer","default":72000}»
+fastify  fastify-5.12.7/lib/config-validator.js:6  «"bodyLimit":{"type":"integer","default":1048576}»
+fastify  fastify-5.12.7/lib/content-type-parser.js:245  «function rawBody (request, reply, options, parser, done)»
+under-pressure  fastify-under-pressure-9.2.1/index.js:7  «eventLoopUtilization»
+under-pressure  fastify-under-pressure-9.2.1/index.js:6  «monitorEventLoopDelay»
+under-pressure  fastify-under-pressure-9.2.1/index.js:27  «maxEventLoopDelay»
+pg-pool  pg-pool-3.14.0/index.js:206  «if (!this.options.connectionTimeoutMillis) {»
+pg-pool  pg-pool-3.14.0/index.js:224  «timeout exceeded when trying to connect»
+pino  pino-10.4.0/lib/transport.js:10  «const ThreadStream = require('thread-stream')»
+close-with-grace  close-with-grace-2.5.0/index.js:36  «process.once(event, onSignal)»
+undici  undici-8.12.3/lib/dispatcher/client.js:318  «this[kBodyTimeout] = bodyTimeout != null ? bodyTimeout : 300e3»

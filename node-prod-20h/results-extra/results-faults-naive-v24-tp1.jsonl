@@ -1,0 +1,1 @@
+{"fault":"F10","impl":"naive","node":"24.22.1","sec":6.4,"load":{"n":8,"outcomes":{"200":8},"p50":3036.4,"p99":3038.9,"max":3038.9},"avatar":{"n":54,"outcomes":{"200":54},"p50":857.7,"p99":924.1,"max":924.1},"probe":{"n":121,"errors":0,"p99":3.4,"max":13.2},"rssMaxMB":64.8,"lagMaxMs":3.9,"eluMax":0.11,"serviceExit":"alive","oomKill":0}

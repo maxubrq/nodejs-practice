@@ -1,0 +1,116 @@
+v24  427      deps/uv/src/unix/core.c  «int uv_run(uv_loop_t* loop, uv_run_mode mode)»
+v26  427      deps/uv/src/unix/core.c  «int uv_run(uv_loop_t* loop, uv_run_mode mode)»
+v24  194      deps/uv/src/threadpool.c  «static void init_threads(void)»
+v26  194      deps/uv/src/threadpool.c  «static void init_threads(void)»
+v24  207      deps/uv/src/threadpool.c  «UV_THREADPOOL_SIZE»
+v26  207      deps/uv/src/threadpool.c  «UV_THREADPOOL_SIZE»
+v24  603      lib/internal/timers.js  «function processTimers(now)»
+v26  603      lib/internal/timers.js  «function processTimers(now)»
+v24  525      lib/internal/timers.js  «function processImmediate()»
+v26  525      lib/internal/timers.js  «function processImmediate()»
+v24  72       lib/internal/process/task_queues.js  «function processTicksAndRejections()»
+v26  72       lib/internal/process/task_queues.js  «function processTicksAndRejections()»
+v24  439      lib/internal/process/promises.js  «function processPromiseRejections()»
+v26  369      lib/internal/process/promises.js  «function processPromiseRejections()»
+v24  386      lib/internal/process/promises.js  «function throwUnhandledRejectionsMode(promise, promiseInfo)»
+v26  316      lib/internal/process/promises.js  «function throwUnhandledRejectionsMode(promise, promiseInfo)»
+v24  211      src/api/environment.cc  «uv_get_constrained_memory»
+v26  211      src/api/environment.cc  «uv_get_constrained_memory»
+v24  176      lib/buffer.js  «Buffer.poolSize = 64 * 1024;»
+v26  189      lib/buffer.js  «Buffer.poolSize = 64 * 1024;»
+v24  12       lib/internal/streams/state.js  «let defaultHighWaterMarkBytes»
+v26  12       lib/internal/streams/state.js  «let defaultHighWaterMarkBytes»
+v24  550      lib/internal/streams/writable.js  «function writeOrBuffer(stream, state, chunk, encoding, callback)»
+v26  550      lib/internal/streams/writable.js  «function writeOrBuffer(stream, state, chunk, encoding, callback)»
+v24  186      lib/internal/streams/pipeline.js  «function pipelineImpl(streams, callback, opts)»
+v26  186      lib/internal/streams/pipeline.js  «function pipelineImpl(streams, callback, opts)»
+v24  111      lib/internal/streams/end-of-stream.js  «function eos(stream, options, callback)»
+v26  114      lib/internal/streams/end-of-stream.js  «function eos(stream, options, callback)»
+v24  930      lib/internal/streams/readable.js  «Readable.prototype.pipe = function(dest, pipeOpts)»
+v26  978      lib/internal/streams/readable.js  «Readable.prototype.pipe = function(dest, pipeOpts)»
+v24  542      lib/_http_server.js  «this.requestTimeout = 300_000»
+v26  558      lib/_http_server.js  «this.requestTimeout = 300_000»
+v24  550      lib/_http_server.js  «this.headersTimeout = MathMin(60_000, this.requestTimeout)»
+v26  566      lib/_http_server.js  «this.headersTimeout = MathMin(60_000, this.requestTimeout)»
+v24  562      lib/_http_server.js  «this.keepAliveTimeout = 5_000»
+v26  578      lib/_http_server.js  «this.keepAliveTimeout = 5_000»
+v24  570      lib/_http_server.js  «this.keepAliveTimeoutBuffer = 1000»
+v26  586      lib/_http_server.js  «this.keepAliveTimeoutBuffer = 1000»
+v24  1140     lib/_http_server.js  «socket.setTimeout(keepAliveTimeout + keepAliveTimeoutBuffer)»
+v26  1260     lib/_http_server.js  «socket.setTimeout(keepAliveTimeout + keepAliveTimeoutBuffer)»
+v24  900      lib/_http_server.js  «function socketOnTimeout()»
+v26  921      lib/_http_server.js  «function socketOnTimeout()»
+v24  696      lib/_http_server.js  «Server.prototype.closeIdleConnections = function»
+v26  712      lib/_http_server.js  «Server.prototype.closeIdleConnections = function»
+v24  674      lib/_http_server.js  «Server.prototype.close = function»
+v26  690      lib/_http_server.js  «Server.prototype.close = function»
+v24  658      lib/_http_agent.js  «Agent.prototype.keepSocketAlive = function keepSocketAlive(socket)»
+v26  658      lib/_http_agent.js  «Agent.prototype.keepSocketAlive = function keepSocketAlive(socket)»
+v24  67       lib/_http_outgoing.js  «ERR_STREAM_DESTROYED»
+v26  66       lib/_http_outgoing.js  «ERR_STREAM_DESTROYED»
+v24  164      src/node_options.h  «network_family_autoselection_attempt_timeout =»
+v26  185      src/node_options.h  «network_family_autoselection_attempt_timeout =»
+v24  263      deps/undici/src/lib/dispatcher/client.js  «this[kHeadersTimeout] = headersTimeout != null ? headersTimeout : 300e3»
+v26  319      deps/undici/src/lib/dispatcher/client.js  «this[kHeadersTimeout] = headersTimeout != null ? headersTimeout : 300e3»
+v24  262      deps/undici/src/lib/dispatcher/client.js  «this[kBodyTimeout] = bodyTimeout != null ? bodyTimeout : 300e3»
+v26  318      deps/undici/src/lib/dispatcher/client.js  «this[kBodyTimeout] = bodyTimeout != null ? bodyTimeout : 300e3»
+v24  255      deps/undici/src/lib/dispatcher/client.js  «this[kKeepAliveTimeoutThreshold]»
+v26  311      deps/undici/src/lib/dispatcher/client.js  «this[kKeepAliveTimeoutThreshold]»
+v24  75       deps/undici/src/lib/core/connect.js  «timeout = timeout == null ? 10e3 : timeout»
+v26  75       deps/undici/src/lib/core/connect.js  «timeout = timeout == null ? 10e3 : timeout»
+v24  68       deps/undici/src/lib/dispatcher/pool.js  «this[kConnections] = connections || null»
+v26  99       deps/undici/src/lib/dispatcher/pool.js  «this[kConnections] = connections || null»
+v24  33       deps/undici/src/lib/util/timers.js  «TICK_MS»
+v26  33       deps/undici/src/lib/util/timers.js  «TICK_MS»
+v24  320      lib/internal/abort_controller.js  «static any(signals)»
+v26  322      lib/internal/abort_controller.js  «static any(signals)»
+v24  305      lib/internal/abort_controller.js  «static timeout(delay)»
+v26  307      lib/internal/abort_controller.js  «static timeout(delay)»
+v24  11       lib/internal/perf/event_loop_utilization.js  «function eventLoopUtilization(util1, util2)»
+v26  11       lib/internal/perf/event_loop_utilization.js  «function eventLoopUtilization(util1, util2)»
+v24  176      src/histogram-inl.h  «RecordDelta»
+v26  182      src/histogram-inl.h  «RecordDelta»
+v24  64       lib/internal/modules/esm/module_job.js  «ERR_REQUIRE_ASYNC_MODULE»
+v26  65       lib/internal/modules/esm/module_job.js  «ERR_REQUIRE_ASYNC_MODULE»
+v24  605      lib/events.js  «MaxListenersExceededWarning»
+v26  605      lib/events.js  «MaxListenersExceededWarning»
+v24  ok       test/parallel/test-http-keep-alive-timeout-buffer.js
+v26  ok       test/parallel/test-http-keep-alive-timeout-buffer.js
+v24  ok       test/parallel/test-http-client-keep-alive-hint.js
+v26  ok       test/parallel/test-http-client-keep-alive-hint.js
+v24  ok       test/parallel/test-http-agent-keep-alive-timeout-buffer.js
+v26  ok       test/parallel/test-http-agent-keep-alive-timeout-buffer.js
+v24  ok       test/parallel/test-http-server-close-idle.js
+v26  ok       test/parallel/test-http-server-close-idle.js
+v24  ok       test/parallel/test-http-server-close-all.js
+v26  ok       test/parallel/test-http-server-close-all.js
+v24  ok       test/parallel/test-http-server-headers-timeout-keepalive.js
+v26  ok       test/parallel/test-http-server-headers-timeout-keepalive.js
+v24  ok       test/parallel/test-http-outgoing-destroyed.js
+v26  ok       test/parallel/test-http-outgoing-destroyed.js
+v24  ok       test/parallel/test-stream-pipeline.js
+v26  ok       test/parallel/test-stream-pipeline.js
+v24  ok       test/parallel/test-stream-pipeline-listeners.js
+v26  ok       test/parallel/test-stream-pipeline-listeners.js
+v24  ok       test/parallel/test-promises-unhandled-rejections.js
+v26  ok       test/parallel/test-promises-unhandled-rejections.js
+v24  ok       test/parallel/test-promise-unhandled-flag.js
+v26  ok       test/parallel/test-promise-unhandled-flag.js
+v24  ok       test/parallel/test-abortsignal-any.mjs
+v26  ok       test/parallel/test-abortsignal-any.mjs
+v24  ok       test/parallel/test-timers-immediate-queue.js
+v26  ok       test/parallel/test-timers-immediate-queue.js
+v24  ok       test/parallel/test-next-tick-ordering.js
+v26  ok       test/parallel/test-next-tick-ordering.js
+v24  ok       test/parallel/test-max-old-space-size-percentage.js
+v26  ok       test/parallel/test-max-old-space-size-percentage.js
+v24  ok       test/parallel/test-buffer-pool-untransferable.js
+v26  ok       test/parallel/test-buffer-pool-untransferable.js
+v24  ok       test/sequential/test-performance-eventloopdelay.js
+v26  ok       test/sequential/test-performance-eventloopdelay.js
+v24  ok       test/parallel/test-net-autoselectfamily.js
+v26  ok       test/parallel/test-net-autoselectfamily.js
+v24  ok       test/es-module/test-require-module-tla-execution.js
+v26  ok       test/es-module/test-require-module-tla-execution.js
+v24  ok       test/parallel/test-http-server-request-timeout-keepalive.js
+v26  ok       test/parallel/test-http-server-request-timeout-keepalive.js

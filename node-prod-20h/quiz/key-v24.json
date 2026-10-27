@@ -1,0 +1,186 @@
+{
+  "node": "v24.22.1",
+  "runs": 5,
+  "answers": {
+    "p01": {
+      "outputs": [
+        "stdout=(trống) exit=1"
+      ],
+      "racy": false
+    },
+    "p02": {
+      "outputs": [
+        "stdout=(trống) exit=1"
+      ],
+      "racy": false
+    },
+    "p03": {
+      "outputs": [
+        "stdout=caught exit=0"
+      ],
+      "racy": false
+    },
+    "p04": {
+      "outputs": [
+        "stdout=(trống) exit=1"
+      ],
+      "racy": false
+    },
+    "p05": {
+      "outputs": [
+        "dst.destroyed=false"
+      ],
+      "racy": false
+    },
+    "p06": {
+      "outputs": [
+        "dst.destroyed=true err=boom"
+      ],
+      "racy": false
+    },
+    "p07": {
+      "outputs": [
+        "firstFalse=4 received=30"
+      ],
+      "racy": false
+    },
+    "p08": {
+      "outputs": [
+        "destroyed=true"
+      ],
+      "racy": false
+    },
+    "p09": {
+      "outputs": [
+        "name=TimeoutError"
+      ],
+      "racy": false
+    },
+    "p10": {
+      "outputs": [
+        "fetch=resolved status=200 text=TimeoutError"
+      ],
+      "racy": false
+    },
+    "p11": {
+      "outputs": [
+        "close@50ms finished=false | end-no-throw"
+      ],
+      "racy": false
+    },
+    "p12": {
+      "outputs": [
+        "cb err=ERR_STREAM_DESTROYED"
+      ],
+      "racy": false
+    },
+    "p13": {
+      "outputs": [
+        "closed after <1s"
+      ],
+      "racy": false
+    },
+    "p14": {
+      "outputs": [
+        "response < closed"
+      ],
+      "racy": false
+    },
+    "p15": {
+      "outputs": [
+        "throws ERR_OUT_OF_RANGE"
+      ],
+      "racy": false
+    },
+    "p16": {
+      "outputs": [
+        "reused=false"
+      ],
+      "racy": false
+    },
+    "p17": {
+      "outputs": [
+        "keep-alive: timeout=5"
+      ],
+      "racy": false
+    },
+    "p18": {
+      "outputs": [
+        "stdout=(trống) took=<0.8s"
+      ],
+      "racy": false
+    },
+    "p19": {
+      "outputs": [
+        "exitHandlerRan=false code=null signal=SIGTERM"
+      ],
+      "racy": false
+    },
+    "p20": {
+      "outputs": [
+        "explicitExit=(trống) naturalExit=again,beforeExit"
+      ],
+      "racy": false
+    },
+    "p21": {
+      "outputs": [
+        "allocUnsafe.buffer=65536 alloc.buffer=100"
+      ],
+      "racy": false
+    },
+    "p22": {
+      "outputs": [
+        "autoSelectFamily=true attemptTimeout=250"
+      ],
+      "racy": false
+    },
+    "p23": {
+      "outputs": [
+        "pbkdf2 < lookup < readFile < promises.readFile"
+      ],
+      "racy": false
+    },
+    "p24": {
+      "outputs": [
+        "readable=65536 object=16 fs=65536"
+      ],
+      "racy": false
+    },
+    "p25": {
+      "outputs": [
+        "listener sees B"
+      ],
+      "racy": false
+    },
+    "p26": {
+      "outputs": [
+        "noTLA={\"a\":1} withTLA=ERR_REQUIRE_ASYNC_MODULE"
+      ],
+      "racy": false
+    },
+    "p27": {
+      "outputs": [
+        "aborted reason=TimeoutError"
+      ],
+      "racy": false
+    },
+    "p28": {
+      "outputs": [
+        "first=413/keep-alive second=413/keep-alive"
+      ],
+      "racy": false
+    },
+    "p29": {
+      "outputs": [
+        "default=10 listeners=11 warnings=MaxListenersExceededWarning"
+      ],
+      "racy": false
+    },
+    "p30": {
+      "outputs": [
+        "globalAgent.keepAlive=true reused=true"
+      ],
+      "racy": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# node --cpu-prof service/naive.mjs, 1 request /validate với 26 chữ a + '!' (v24.22.1)
+tổng 6079 ms mẫu
+   4765.2 ms  78.4%  (anonymous)  service/naive.mjs:54
+   1164.2 ms  19.1%  (idle)  
+     18.4 ms   0.3%  (program)  
+     17.1 ms   0.3%  compileForInternalLoader  bootstrap/realm:383
+     11.9 ms   0.2%  __require  undici/undici:5
+      9.8 ms   0.2%  (garbage collector)  

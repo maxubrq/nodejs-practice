@@ -1,0 +1,21 @@
+{
+  "seed": 102,
+  "node": "v24.22.1",
+  "module": "cjs",
+  "runs": 100,
+  "answers": {
+    "g01": "ABCDFE",
+    "g02": "ABCDEF",
+    "g03": "EFABDCGIH",
+    "g04": "EABCDFG",
+    "g05": "FGHABECD",
+    "g06": "ABDCEHFG",
+    "g07": "ABCDEF",
+    "g08": "AFCBDE",
+    "g09": "AFBCDE",
+    "g10": "ABECDFIGKHJ",
+    "g11": "CABDJEFGHI",
+    "g12": "DAFEBC"
+  },
+  "rejectedAsRacy": 6
+}
