@@ -7,18 +7,18 @@ Ghi dự đoán + độ tự tin 1–5 vào journal.csv TRƯỚC khi chạy.
 
 ```js
 queueMicrotask(() => {
-  log('A');
+  log("A");
   queueMicrotask(() => {
-    log('B');
+    log("B");
     Promise.resolve().then(() => {
-      log('C');
+      log("C");
     });
-    log('D');
+    log("D");
   });
-  log('E');
+  log("E");
 });
 queueMicrotask(() => {
-  log('F');
+  log("F");
 });
 ```
 
@@ -26,29 +26,29 @@ queueMicrotask(() => {
 
 ```js
 process.nextTick(() => {
-  log('A');
+  log("A");
   Promise.resolve().then(() => {
-    log('B');
+    log("B");
   });
   setImmediate(() => {
-    log('C');
+    log("C");
   });
 });
 setImmediate(() => {
-  log('D');
+  log("D");
 });
 queueMicrotask(() => {
-  log('E');
+  log("E");
   queueMicrotask(() => {
-    log('F');
+    log("F");
     setImmediate(() => {
-      log('G');
+      log("G");
     });
     queueMicrotask(() => {
-      log('H');
+      log("H");
     });
   });
-  log('I');
+  log("I");
 });
 ```
 
@@ -56,22 +56,22 @@ queueMicrotask(() => {
 
 ```js
 process.nextTick(() => {
-  log('A');
+  log("A");
   (async () => {
-    log('B');
+    log("B");
     await Promise.resolve();
-    log('C');
+    log("C");
   })();
 });
 Promise.resolve().then(() => {
-  log('D');
+  log("D");
   (async () => {
-    log('E');
+    log("E");
     await Promise.resolve();
     Promise.resolve().then(() => {
-      log('F');
+      log("F");
     });
-    log('G');
+    log("G");
   })();
 });
 ```
@@ -80,22 +80,22 @@ Promise.resolve().then(() => {
 
 ```js
 setImmediate(() => {
-  log('A');
+  log("A");
 });
 queueMicrotask(() => {
-  log('B');
+  log("B");
   process.nextTick(() => {
-    log('C');
+    log("C");
     setImmediate(() => {
-      log('D');
+      log("D");
     });
   });
 });
 (async () => {
   await null;
-  log('E');
+  log("E");
   process.nextTick(() => {
-    log('F');
+    log("F");
   });
 })();
 ```
@@ -104,19 +104,19 @@ queueMicrotask(() => {
 
 ```js
 fs.stat(__filename, () => {
-  log('A');
-  log('B');
+  log("A");
+  log("B");
   queueMicrotask(() => {
-    log('C');
+    log("C");
     Promise.resolve().then(() => {
-      log('D');
+      log("D");
     });
   });
 });
-log('E');
+log("E");
 (async () => {
   await null;
-  log('F');
+  log("F");
 })();
 ```
 
@@ -124,22 +124,22 @@ log('E');
 
 ```js
 (async () => {
-  log('A');
+  log("A");
   await Promise.resolve();
   (async () => {
     await null;
-    log('B');
+    log("B");
     Promise.resolve().then(() => {
-      log('C');
+      log("C");
     });
   })();
-  log('D');
+  log("D");
 })();
 setTimeout(() => {
-  log('E');
+  log("E");
 }, 0);
 setTimeout(() => {
-  log('F');
+  log("F");
 }, 0);
 ```
 
@@ -147,20 +147,20 @@ setTimeout(() => {
 
 ```js
 queueMicrotask(() => {
-  log('A');
+  log("A");
   setTimeout(() => {
-    log('B');
+    log("B");
     queueMicrotask(() => {
-      log('C');
+      log("C");
     });
   }, 0);
   setTimeout(() => {
-    log('D');
+    log("D");
   }, 0);
 });
 Promise.resolve().then(() => {
-  log('E');
-  log('F');
+  log("E");
+  log("F");
 });
 ```
 
@@ -168,20 +168,20 @@ Promise.resolve().then(() => {
 
 ```js
 process.nextTick(() => {
-  log('A');
+  log("A");
   (async () => {
-    log('B');
+    log("B");
     await Promise.resolve();
     setTimeout(() => {
-      log('C');
+      log("C");
     }, 0);
     process.nextTick(() => {
-      log('D');
+      log("D");
     });
-    log('E');
+    log("E");
   })();
   Promise.resolve().then(() => {
-    log('F');
+    log("F");
   });
 });
 ```
@@ -190,21 +190,21 @@ process.nextTick(() => {
 
 ```js
 queueMicrotask(() => {
-  log('A');
+  log("A");
   setImmediate(() => {
-    log('B');
+    log("B");
     queueMicrotask(() => {
-      log('C');
+      log("C");
     });
     Promise.resolve().then(() => {
-      log('D');
+      log("D");
     });
   });
 });
 Promise.resolve().then(() => {
-  log('E');
-  log('F');
-  log('G');
+  log("E");
+  log("F");
+  log("G");
 });
 ```
 
@@ -212,27 +212,27 @@ Promise.resolve().then(() => {
 
 ```js
 queueMicrotask(() => {
-  log('A');
-  log('B');
+  log("A");
+  log("B");
 });
 (async () => {
   await null;
-  log('C');
+  log("C");
   Promise.resolve().then(() => {
-    log('D');
+    log("D");
     process.nextTick(() => {
-      log('E');
+      log("E");
     });
   });
 })();
 Promise.resolve().then(() => {
-  log('F');
+  log("F");
   setImmediate(() => {
-    log('G');
+    log("G");
   });
   Promise.resolve().then(() => {
-    log('H');
-    log('I');
+    log("H");
+    log("I");
   });
 });
 ```
@@ -241,24 +241,24 @@ Promise.resolve().then(() => {
 
 ```js
 setImmediate(() => {
-  log('A');
+  log("A");
   setImmediate(() => {
-    log('B');
+    log("B");
     queueMicrotask(() => {
-      log('C');
+      log("C");
     });
   });
   process.nextTick(() => {
-    log('D');
+    log("D");
   });
 });
 queueMicrotask(() => {
-  log('E');
+  log("E");
   queueMicrotask(() => {
-    log('F');
+    log("F");
   });
   queueMicrotask(() => {
-    log('G');
+    log("G");
   });
 });
 ```
@@ -267,22 +267,21 @@ queueMicrotask(() => {
 
 ```js
 setTimeout(() => {
-  log('A');
+  log("A");
   process.nextTick(() => {
-    log('B');
+    log("B");
     queueMicrotask(() => {
-      log('C');
+      log("C");
     });
   });
   queueMicrotask(() => {
-    log('D');
+    log("D");
     setTimeout(() => {
-      log('E');
+      log("E");
     }, 0);
     setTimeout(() => {
-      log('F');
+      log("F");
     }, 0);
   });
 }, 0);
 ```
-
