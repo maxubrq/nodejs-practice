@@ -1,0 +1,10 @@
+{"node":"v24.22.1","backendKeepAliveMs":100,"backendBusyMs":0,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":100,"codes":{"200":98,"502":2},"lbFresh":43,"lbReused":57,"reasons":{"backend closed before response (FIN)":2}}
+{"node":"v24.22.1","backendKeepAliveMs":100,"backendBusyMs":20,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":100,"codes":{"200":100},"lbFresh":51,"lbReused":49,"reasons":{}}
+{"node":"v24.22.1","backendKeepAliveMs":65000,"backendBusyMs":20,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":100,"codes":{"200":99,"ECONNREFUSED":1},"lbFresh":1,"lbReused":98,"reasons":{}}
+{"node":"v26.12.1","backendKeepAliveMs":100,"backendBusyMs":0,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":100,"codes":{"200":98,"502":2},"lbFresh":53,"lbReused":47,"reasons":{"backend closed before response (FIN)":2}}
+{"node":"v26.12.1","backendKeepAliveMs":100,"backendBusyMs":20,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":100,"codes":{"200":100},"lbFresh":54,"lbReused":46,"reasons":{}}
+{"node":"v26.12.1","backendKeepAliveMs":65000,"backendBusyMs":20,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":100,"codes":{"200":100},"lbFresh":1,"lbReused":99,"reasons":{}}
+{"node":"v24.22.1","backendKeepAliveMs":100,"backendBusyMs":0,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":500,"codes":{"200":495,"502":5},"lbFresh":259,"lbReused":241,"reasons":{"backend closed before response (FIN)":2,"ECONNRESET":3}}
+{"node":"v24.22.1","backendKeepAliveMs":65000,"backendBusyMs":0,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":500,"codes":{"200":500},"lbFresh":1,"lbReused":499,"reasons":{}}
+{"node":"v26.12.1","backendKeepAliveMs":100,"backendBusyMs":0,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":500,"codes":{"200":497,"502":3},"lbFresh":273,"lbReused":227,"reasons":{"ECONNRESET":1,"backend closed before response (FIN)":2}}
+{"node":"v26.12.1","backendKeepAliveMs":65000,"backendBusyMs":0,"socketClosesAtMs":1100,"lbIdleMs":60000,"requests":500,"codes":{"200":500},"lbFresh":1,"lbReused":499,"reasons":{}}

@@ -1,0 +1,16 @@
+{"node":"v26.12.1","mode":"naive","scenario":"baseline","reqs":41102,"p50":5,"p99":10,"ok2xx":41102,"non2xx":0,"errors":0,"timeouts":0,"healthP99":45.8,"healthMax":45.8,"healthFails":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"naive","scenario":"dbSlow","reqs":100,"p50":5036,"p99":5038,"ok2xx":100,"non2xx":0,"errors":0,"timeouts":0,"healthP99":2.1,"healthMax":27.3,"healthFails":0,"dbPendingAfter":100,"serviceAlive":true}
+{"node":"v26.12.1","mode":"naive","scenario":"dbDown","reqs":0,"p50":0,"p99":0,"ok2xx":0,"non2xx":0,"errors":50,"timeouts":50,"healthP99":15.6,"healthMax":15.6,"healthFails":0,"dbQueuedDuringOutage":100,"serviceAlive":true}
+{"node":"v26.12.1","mode":"naive","scenario":"clientDisconnect","clients":50,"upstreamStillOpen":50,"serviceInflight":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"naive","scenario":"streamHang","clients":20,"closedByServer":0,"closeMsMax":null,"clientTimeouts":20,"upstreamStillOpen":20,"serviceAlive":true}
+{"node":"v26.12.1","mode":"naive","scenario":"payload50mb","bodyMB":49.2,"statuses":"200,200,200,200","rssBaseMB":60,"rssMaxMB":338,"loopLagMaxMs":79.6,"healthP99":66.6,"healthMax":66.6,"healthFails":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"naive","scenario":"redos","status":400,"reqMs":20364.9,"healthP99":20357.8,"healthMax":20357.8,"healthFails":1,"healthFailCodes":"{\"ECONNRESET\":1}","serviceAlive":true}
+{"node":"v26.12.1","mode":"naive","scenario":"sigterm","reqs":5901,"p50":50,"p99":65,"ok2xx":5777,"non2xx":124,"errors":0,"timeouts":0,"lb502":124,"lb502Reasons":"{\"backend closed before response (FIN)\":25,\"ECONNREFUSED\":99}","backend1Exit":"SIGTERM"}
+{"node":"v26.12.1","mode":"fixed","scenario":"baseline","reqs":38404,"p50":5,"p99":17,"ok2xx":38404,"non2xx":0,"errors":0,"timeouts":0,"healthP99":45.4,"healthMax":45.4,"healthFails":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"fixed","scenario":"dbSlow","reqs":2600,"p50":300,"p99":340,"ok2xx":0,"non2xx":2600,"errors":0,"timeouts":0,"healthP99":3.2,"healthMax":14.4,"healthFails":0,"dbPendingAfter":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"fixed","scenario":"dbDown","reqs":103342,"p50":2,"p99":8,"ok2xx":0,"non2xx":103342,"errors":0,"timeouts":0,"healthP99":19.5,"healthMax":19.5,"healthFails":0,"dbQueuedDuringOutage":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"fixed","scenario":"clientDisconnect","clients":50,"upstreamStillOpen":0,"serviceInflight":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"fixed","scenario":"streamHang","clients":20,"closedByServer":20,"closeMsMax":2061.7,"clientTimeouts":0,"upstreamStillOpen":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"fixed","scenario":"payload50mb","bodyMB":49.2,"statuses":"413,413,413,EPIPE","rssBaseMB":60,"rssMaxMB":61,"loopLagMaxMs":0.6,"healthP99":2.2,"healthMax":2.2,"healthFails":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"fixed","scenario":"redos","status":400,"reqMs":1.3,"healthP99":4.5,"healthMax":4.5,"healthFails":0,"serviceAlive":true}
+{"node":"v26.12.1","mode":"fixed","scenario":"sigterm","reqs":5780,"p50":51,"p99":63,"ok2xx":5780,"non2xx":0,"errors":0,"timeouts":0,"lb502":0,"lb502Reasons":"{}","backend1Exit":0}

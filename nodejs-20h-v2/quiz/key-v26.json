@@ -1,0 +1,95 @@
+{
+  "node": "v26.12.1",
+  "generated": "2026-10-27T04:11:17.045Z",
+  "answers": {
+    "u01": [
+      "immediate / timeout",
+      "timeout / immediate"
+    ],
+    "u02": [
+      "immediate / timeout"
+    ],
+    "u03": [
+      "sync / tick / then / microtask"
+    ],
+    "u04": [
+      "sync / then / microtask / tick"
+    ],
+    "u05": [
+      "tick1 / then1 / then-from-then / then2 / tick-from-then"
+    ],
+    "u06": [
+      "imm1 / tick / then / imm2"
+    ],
+    "u07": [
+      "t1 / p1 / t2 / p2"
+    ],
+    "u08": [
+      "a1 / sync / a2 / p1 / a3 / p2 / p3"
+    ],
+    "u09": [
+      "imm-A / imm-B / timeout",
+      "imm-A / timeout / imm-B"
+    ],
+    "u10": [
+      "main / exit 0 / then in exit"
+    ],
+    "u11": [
+      "caught / exit 0"
+    ],
+    "u12": [
+      "exit 1  [exit 1]"
+    ],
+    "u13": [
+      "true,true,true,false,false,false received 30"
+    ],
+    "u14": [
+      "pipe dest destroyed: false | pipeline dest destroyed: true"
+    ],
+    "u15": [
+      "65536 65536 16 65536"
+    ],
+    "u16": [
+      "res close finished=false | end ok destroyed=true"
+    ],
+    "u17": [
+      "fetch resolved 200 / text() rejected TimeoutError"
+    ],
+    "u18": [
+      "~50"
+    ],
+    "u19": [
+      "keepAliveTimeout 5000 buffer 1000 headersTimeout 60000 requestTimeout 300000"
+    ],
+    "u20": [
+      "reusedSocket: false"
+    ],
+    "u21": [
+      "pbkdf2 / stat"
+    ],
+    "u21b": [
+      "stat / pbkdf2"
+    ],
+    "u22": [
+      "pbkdf2 < readFile < promises.readFile < lookup"
+    ],
+    "u23": [
+      "listener sees B"
+    ],
+    "u24": [
+      "a: 1 / b: ERR_REQUIRE_ASYNC_MODULE"
+    ],
+    "u25": [
+      "sender byteLength 0 / receiver byteLength 1024"
+    ],
+    "u26": [
+      "p50 close to 20 ms"
+    ],
+    "u27": [
+      "alive; heapUsed<16MB: true arrayBuffers>=200MB: true"
+    ],
+    "u28": [
+      "write after disconnect returned false / exit 0"
+    ]
+  }
+}
